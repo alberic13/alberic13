@@ -96,7 +96,7 @@ Feel free to reach out for collaborations, full-time roles, or freelance inquiri
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muchammad_Zalde-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/)
-[![Email](https://img.shields.io/badge/Email-zaldealberic@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muchammadzalde@gmail.com)
+[![Email](https://img.shields.io/badge/Email-zaldealberic@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaldealberic@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-alberic13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alberic13)
 
 </div>
