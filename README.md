@@ -6,6 +6,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=550&lines=Frontend+Developer+(React+%2B+TypeScript);Fullstack+Explorer+(Go+%2B+PHP+%2B+Node);Mobile+App+Developer+(Flutter+%2B+Dart);Passionate+about+Clean+Architecture)](https://git.io/typing-svg)
 
 <p align="center">
+  <a href="https://pos-web-zalde.vercel.app/login">🌐 Live Projects</a> •
   <a href="mailto:muchammadzalde@gmail.com">📫 Contact Me</a> •
   <a href="https://github.com/alberic13">🐙 GitHub Profile</a>
 </p>
@@ -16,7 +17,8 @@
 
 ### 👨‍💻 About Me
 - 🔭 **Current Focus**: Building scalable, responsive web apps using **React 19**, **Next.js**, **TypeScript**, & **Tailwind CSS v4**.
-- 🛠️ **Backend & Mobile**: Exploring **Golang** microservices & building cross-platform apps with **Flutter & Dart**.
+- 🛠️ **Backend & Database**: Developing services with **Golang**, **PHP**, **PostgreSQL**, & **MySQL**.
+- 📱 **Mobile Development**: Cross-platform mobile development with **Flutter & Dart**.
 - 🎯 **Engineering Principle**: Clean Code, YAGNI, DRY, Component-Driven Design, & Automated CI/CD.
 - 💼 **Status**: Open for **Frontend Developer / Fullstack Developer / Software Engineer** opportunities.
 
@@ -37,10 +39,12 @@
 
 #### ⚙️ Backend, Mobile & Database
 ![Go](https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 #### 🚀 Workflow & DevOps
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -56,9 +60,9 @@
 
 | Repository | Tech Stack | Live Demo / Description |
 | :--- | :--- | :--- |
-| **[pos-web-zalde](https://github.com/alberic13/pos-web-zalde)** | TypeScript, React |  [🌐 Live Demo](https://pos-web-zalde.vercel.app/login) Modern Point of Sales (POS / Kasir) solution. |
 | **[system-rt](https://github.com/alberic13/system-rt)** | React 19, Tailwind v4, Vite, Recharts | [🌐 Live Demo](https://system-rt-zalde.vercel.app/) — Sistem Administrasi & Keuangan Kas RT terintegrasi. |
-| **[CRM-web](https://github.com/alberic13/CRM-web)** | TypeScript, React, Tailwind | [🌐 Live Demo](https://crm-web-zalde.vercel.app/login) Customer Relationship Management Web App. |
+| **[CRM-web](https://github.com/alberic13/CRM-web)** | TypeScript, React, Tailwind | [🌐 Live Demo](https://crm-web-zalde.vercel.app/login) — Customer Relationship Management Web App. |
+| **[pos-web-zalde](https://github.com/alberic13/pos-web-zalde)** | TypeScript, React | [🌐 Live Demo](https://pos-web-zalde.vercel.app/login) — Modern Point of Sales (POS / Kasir) solution. |
 | **[whatsap-auto-reply-Golang](https://github.com/alberic13/whatsap-auto-reply-Golang)** | Golang, WhatsApp Bot API | Automated high-performance WhatsApp reply engine. |
 
 ---
@@ -82,7 +86,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muchammadzalde@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alberic13)
 
