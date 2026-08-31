@@ -6,7 +6,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=550&lines=Frontend+Developer+(React+%2B+TypeScript);Fullstack+Explorer+(Go+%2B+PHP+%2B+Node);Mobile+App+Developer+(Flutter+%2B+Dart);Passionate+about+Clean+Architecture)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="https://pos-web-zalde.vercel.app/login">🌐 Live Portfolio / Projects</a> •
   <a href="mailto:muchammadzalde@gmail.com">📫 Contact Me</a> •
   <a href="https://github.com/alberic13">🐙 GitHub Profile</a>
 </p>
@@ -57,9 +56,9 @@
 
 | Repository | Tech Stack | Live Demo / Description |
 | :--- | :--- | :--- |
+| **[pos-web-zalde](https://github.com/alberic13/pos-web-zalde)** | TypeScript, React |  [🌐 Live Demo](https://pos-web-zalde.vercel.app/login) Modern Point of Sales (POS / Kasir) solution. |
 | **[system-rt](https://github.com/alberic13/system-rt)** | React 19, Tailwind v4, Vite, Recharts | [🌐 Live Demo](https://system-rt-zalde.vercel.app/) — Sistem Administrasi & Keuangan Kas RT terintegrasi. |
 | **[CRM-web](https://github.com/alberic13/CRM-web)** | TypeScript, React, Tailwind | [🌐 Live Demo](https://crm-web-zalde.vercel.app/login) Customer Relationship Management Web App. |
-| **[pos-web-zalde](https://github.com/alberic13/pos-web-zalde)** | TypeScript, React |  [🌐 Live Demo](https://pos-web-zalde.vercel.app/login) Modern Point of Sales (POS / Kasir) solution. |
 | **[whatsap-auto-reply-Golang](https://github.com/alberic13/whatsap-auto-reply-Golang)** | Golang, WhatsApp Bot API | Automated high-performance WhatsApp reply engine. |
 
 ---
