@@ -9,7 +9,7 @@
   <a href="https://github.com/alberic13?tab=repositories">
     <img src="https://img.shields.io/badge/Status-Open_For_Opportunities-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
-  <a href="mailto:muchammadzalde@gmail.com">
+  <a href="mailto:zaldealberic@gmail.com">
     <img src="https://img.shields.io/badge/Email-Hire_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/">
@@ -96,7 +96,7 @@ Feel free to reach out for collaborations, full-time roles, or freelance inquiri
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muchammad_Zalde-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/)
-[![Email](https://img.shields.io/badge/Email-muchammadzalde@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muchammadzalde@gmail.com)
+[![Email](https://img.shields.io/badge/Email-zaldealberic@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muchammadzalde@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-alberic13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alberic13)
 
 </div>
