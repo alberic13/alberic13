@@ -25,7 +25,7 @@
 - 💼 **Profile**: Passionate Software Engineer specializing in modern frontend architecture and fullstack development.
 - ⚡ **Core Strengths**: Building responsive, scalable, high-performance web applications using **React 19**, **Next.js**, **TypeScript**, and **Tailwind CSS**.
 - 🛠️ **Fullstack & Mobile**: Experienced in backend services with **Golang** & **PHP**, relational databases (**PostgreSQL**, **MySQL**), and cross-platform mobile apps with **Flutter & Dart**.
-- 🎯 **Engineering Principles**: Clean Architecture, Component-Driven Design, DRY, YAGNI, and User-Centric UI/UX.
+- 🎯 **Engineering Principles**: Clean Architecture, Component-Driven Design, DRY, YAGNI, Automated CI/CD, and User-Centric UI/UX.
 
 ---
 
@@ -33,8 +33,8 @@
 
 | Project | Tech Stack | Live Demo | Repository | Key Highlights |
 | :--- | :--- | :---: | :---: | :--- |
-| **System RT** | React 19, Tailwind CSS, Vite, Recharts | [🌐 Live Demo](https://system-rt-zalde.vercel.app/) | [🐙 Code](https://github.com/alberic13/system-rt) | Sistem administrasi & keuangan kas RT terintegrasi dengan visualisasi data interaktif. |
 | **POS Web Zalde** | React, TypeScript, Tailwind CSS | [🌐 Live Demo](https://pos-web-zalde.vercel.app/login) | [🐙 Code](https://github.com/alberic13/pos-web-zalde) | Modern Point of Sales (POS / Kasir) solution dengan katalog produk, transaksi, dan riwayat penjualan. |
+| **System RT** | React 19, Tailwind CSS, Vite, Recharts | [🌐 Live Demo](https://system-rt-zalde.vercel.app/) | [🐙 Code](https://github.com/alberic13/system-rt) | Sistem administrasi & keuangan kas RT terintegrasi dengan visualisasi data interaktif. |
 | **CRM Web** | React, TypeScript, Tailwind CSS | [🌐 Live Demo](https://crm-web-zalde.vercel.app/login) | [🐙 Code](https://github.com/alberic13/CRM-web) | Customer Relationship Management platform untuk pengelolaan leads, pipeline, dan data klien. |
 | **Personality Test** | React, TypeScript, Tailwind CSS | [🌐 Live Demo](https://personality-test-omega-three.vercel.app) | [🐙 Code](https://github.com/alberic13/personality-test) | Aplikasi asesmen psikologi interaktif dengan scoring otomatis dan reporting visual. |
 | **WhatsApp Bot Engine** | Golang, WhatsApp Bot API | ⚡ *CLI / Backend* | [🐙 Code](https://github.com/alberic13/whatsap-auto-reply-Golang) | High-performance automated WhatsApp auto-responder engine berbasis Go. |
