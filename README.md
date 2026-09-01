@@ -21,7 +21,7 @@
 
 ---
 
-### 📌 Summary for Recruiters
+### 📌 Summary
 - 💼 **Profile**: Passionate Software Engineer specializing in modern frontend architecture and fullstack development.
 - ⚡ **Core Strengths**: Building responsive, scalable, high-performance web applications using **React 19**, **Next.js**, **TypeScript**, and **Tailwind CSS**.
 - 🛠️ **Fullstack & Mobile**: Experienced in backend services with **Golang** & **PHP**, relational databases (**PostgreSQL**, **MySQL**), and cross-platform mobile apps with **Flutter & Dart**.
