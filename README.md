@@ -34,7 +34,7 @@
 | Project | Tech Stack | Live Demo | Repository | Key Highlights |
 | :--- | :--- | :---: | :---: | :--- |
 | **POS Web Zalde** | React, TypeScript, Tailwind CSS | [🌐 Live Demo](https://pos-web-zalde.vercel.app/login) | [🐙 Code](https://github.com/alberic13/pos-web-zalde) | Modern Point of Sales (POS / Kasir) solution dengan katalog produk, transaksi, dan riwayat penjualan. |
-| **System RT** | React 19, Tailwind CSS, Vite, Recharts | [🌐 Live Demo](https://system-rt-zalde.vercel.app/) | [🐙 Code](https://github.com/alberic13/system-rt) | Sistem administrasi & keuangan kas RT terintegrasi dengan visualisasi data interaktif. |
+| **Todo List App** | React 19, TypeScript, Bun, Elysia, Tailwind CSS v4, pgvector | [🌐 Live Demo](https://todo-list-zalde.vercel.app/) | [🐙 Code](https://github.com/alberic13/todo-list-zalde) | AI & RAG task management suite dengan visualisasi Kanban, semantic vector search, dan integrasi WhatsApp. |
 | **CRM Web** | React, TypeScript, Tailwind CSS | [🌐 Live Demo](https://crm-web-zalde.vercel.app/login) | [🐙 Code](https://github.com/alberic13/CRM-web) | Customer Relationship Management platform untuk pengelolaan leads, pipeline, dan data klien. |
 | **Personality Test** | React, TypeScript, Tailwind CSS | [🌐 Live Demo](https://personality-test-omega-three.vercel.app) | [🐙 Code](https://github.com/alberic13/personality-test) | Aplikasi asesmen psikologi interaktif dengan scoring otomatis dan reporting visual. |
 | **WhatsApp Bot Engine** | Golang, WhatsApp Bot API | ⚡ *CLI / Backend* | [🐙 Code](https://github.com/alberic13/whatsap-auto-reply-Golang) | High-performance automated WhatsApp auto-responder engine berbasis Go. |
