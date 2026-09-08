@@ -42,8 +42,8 @@ Saya adalah seorang software engineer yang berfokus pada **clean code**, **perfo
 | Bidang | Spesialisasi & Teknologi |
 | :--- | :--- |
 | **Frontend Development** | React 19, Next.js (App Router), TypeScript, Tailwind CSS v4, GSAP, Three.js dasar, Responsive UI |
-| **Backend & API** | Golang, Bun, ElysiaJS, Laravel, PHP, Node.js, RESTful APIs, Clean Architecture dasar |
-| **Database & Search** | PostgreSQL, MySQL, Prisma ORM, Drizzle ORM, pgvector (Semantic Search) |
+| **Backend & API** | Golang, Bun, ElysiaJS, Upstash Redis, Laravel, RESTful APIs, Zod Schema Validation |
+| **Database & Cache** | PostgreSQL, MySQL, Upstash Redis (Cache), Prisma ORM, Drizzle ORM, pgvector (Semantic Search) |
 | **Tools & Workflow** | Git & GitHub, GitHub Actions (CI/CD), Playwright (E2E Testing), Docker dasar, Vercel |
 
 ---
@@ -57,12 +57,12 @@ Berikut adalah beberapa proyek yang saya bangun untuk menyelesaikan kebutuhan ny
 <td width="50%" valign="top">
 
 #### 🤖 01. [Todo List + AI RAG Suite](https://todo-list-zalde.vercel.app/)
-**React 19 · Bun · ElysiaJS · Tailwind v4 · Drizzle · pgvector · Playwright**
+**React 19 · Bun · ElysiaJS · Upstash Redis · Tailwind v4 · Drizzle · pgvector · Playwright**
 
 Aplikasi task management dengan Kanban board dan pencarian semantik (RAG) berbasis vector embeddings.
 - Fitur pencarian task berdasarkan makna (semantic search) via pgvector.
-- Backend efisien menggunakan runtime Bun dan ElysiaJS.
-- Dilengkapi automated E2E testing dengan Playwright & GitHub Actions.
+- Fast caching layer dengan **Upstash Redis** untuk optimasi kecepatan akses data.
+- Backend efisien dengan Bun + ElysiaJS, serta automated E2E testing Playwright & CI/CD.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://todo-list-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/todo-list-zalde)
 
@@ -85,12 +85,12 @@ Aplikasi Point of Sale kasir dan manajemen inventaris toko multi-gudang.
 <td width="50%" valign="top">
 
 #### 🏢 03. [CRM Web Platform](https://crm-web-zalde.vercel.app)
-**Next.js 16 · React 19 · TypeScript · Prisma ORM · Neon PostgreSQL**
+**Next.js 16 · React 19 · TypeScript · Zod Validation · Prisma ORM · Neon PostgreSQL**
 
 Platform CRM untuk pengelolaan leads dan customer service support ticket.
+- Validasi skema data dan request payload yang ketat & type-safe menggunakan **Zod**.
 - Visualisasi pipeline penjualan interaktif dengan drag-and-drop.
-- Sistem ticketing komprehensif dengan metrik performa penanganan support.
-- Terintegrasi dengan database serverless Neon PostgreSQL.
+- Sistem ticketing komprehensif terintegrasi database serverless Neon PostgreSQL.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://crm-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/CRM-web)
 
@@ -183,8 +183,8 @@ Layanan bot otomatis WhatsApp dan Telegram berbasis Go berkecepatan tinggi.
 | Kategori | Teknologi |
 | :--- | :--- |
 | **Frontend** | ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Tailwind v4](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Backend** | ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Elysia](https://img.shields.io/badge/ElysiaJS-8B5CF6?style=flat-square&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
-| **Database & AI** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logoColor=black) |
+| **Backend** | ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Elysia](https://img.shields.io/badge/ElysiaJS-8B5CF6?style=flat-square&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
+| **Database & Cache** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logoColor=black) |
 | **Mobile & Tools** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
 
 </div>
@@ -206,22 +206,3 @@ Layanan bot otomatis WhatsApp dan Telegram berbasis Go berkecepatan tinggi.
 
 ---
 
-### 📬 Get In Touch
-
-Saya terbuka untuk peluang kerja sama, diskusi teknis, maupun kesempatan berkarier sebagai **Frontend / Fullstack Developer**.
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/">
-  <img src="https://img.shields.io/badge/LinkedIn-Muchammad_Zalde-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="38" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:zaldealberic@gmail.com">
-  <img src="https://img.shields.io/badge/Email-zaldealberic@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="38" alt="Email" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/alberic13">
-  <img src="https://img.shields.io/badge/GitHub-alberic13-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="GitHub" />
-</a>
-
-</div>
