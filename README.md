@@ -1,16 +1,21 @@
 <div align="center">
 
 # 👋 Hi, I'm Muchammad Zalde Zahwa Putra
-### 🚀 Frontend & Fullstack Software Engineer
+### **Frontend & Fullstack Software Engineer**
+**Building clean, responsive web applications and exploring modern technologies**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=550&lines=Frontend+Developer+(React+%2B+TypeScript);Fullstack+Developer+(Next.js+%2B+Go+%2B+PHP);Mobile+Engineer+(Flutter+%2B+Dart);Clean+Code+%26+Performance-Driven)](https://git.io/typing-svg)
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=580&lines=Frontend+Developer+(React+19+%2B+TypeScript);Fullstack+Developer+(Next.js+%2B+Go+%2B+Bun);Exploring+AI+%26+Vector+Search+(pgvector);Clean+Code+%2B+Modern+UI+%2B+Continuous+Learning)](https://git.io/typing-svg)
+
+<br/>
 
 <p align="center">
-  <a href="https://github.com/alberic13?tab=repositories">
-    <img src="https://img.shields.io/badge/Status-Open_For_Opportunities-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+  <a href="https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/">
+    <img src="https://img.shields.io/badge/Status-Open_for_Opportunities-10B981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
   <a href="mailto:zaldealberic@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Hire_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -23,93 +28,110 @@
 
 ### 🧑‍💻 About Me
 
-Seorang engineer yang terobsesi dengan **clean architecture** dan **user experience yang memukau**. Saya percaya bahwa kode yang baik bukan hanya yang berjalan — tapi yang mudah dibaca, di-maintain, dan di-scale.
+Saya adalah seorang software engineer yang berfokus pada **clean code**, **performa web**, dan **pengalaman pengguna (UX) yang nyaman**. Senang membangun aplikasi dari sisi antarmuka pengguna hingga sistem backend dan integrasi database:
 
-- 🔭 Saat ini fokus membangun **fullstack apps** dengan React 19, TypeScript, dan Go
-- 🤖 Mengintegrasikan **AI & RAG** ke dalam aplikasi nyata (bukan sekadar demo)
-- 📱 Membangun mobile apps dengan **Flutter & Dart**
-- 💡 Prinsip kerja: *"Ship fast, but ship clean."*
+- 🌐 **Frontend:** Mengembangkan UI yang responsif, rapi, dan interaktif menggunakan React 19, Next.js, TypeScript, dan Tailwind CSS.
+- ⚙️ **Backend:** Membangun RESTful API yang andal dan terstruktur dengan Golang, Bun + Elysia, serta Laravel.
+- 🗄️ **Database & AI:** Mengelola database relasional (PostgreSQL, MySQL) serta mengeksplorasi integrasi AI modern seperti Semantic Vector Search (pgvector).
+- 💡 **Etos Kerja:** Menulis kode yang modular, mudah dibaca rekan tim, dan mudah dirawat dalam jangka panjang.
 
 ---
 
-### 📌 Core Strengths
+### 🛠️ Core Competencies
 
-| Area | Detail |
+| Bidang | Spesialisasi & Teknologi |
 | :--- | :--- |
-| 🌐 **Frontend** | React 19, Next.js, TypeScript, Tailwind CSS v4 — responsive, performant, pixel-perfect |
-| ⚙️ **Backend** | Golang, PHP, Node.js (Bun + Elysia) — RESTful APIs, layered architecture |
-| 📱 **Mobile** | Flutter & Dart — cross-platform, native feel |
-| 🗄️ **Database** | PostgreSQL, MySQL, pgvector — relational + vector search |
-| 🤖 **AI Integration** | RAG pipelines, semantic search, AI-powered features in production apps |
+| **Frontend Development** | React 19, Next.js (App Router), TypeScript, Tailwind CSS v4, GSAP, Three.js dasar, Responsive UI |
+| **Backend & API** | Golang, Bun, ElysiaJS, Laravel, PHP, Node.js, RESTful APIs, Clean Architecture dasar |
+| **Database & Search** | PostgreSQL, MySQL, Prisma ORM, Drizzle ORM, pgvector (Semantic Search) |
+| **Tools & Workflow** | Git & GitHub, GitHub Actions (CI/CD), Playwright (E2E Testing), Docker dasar, Vercel |
 
 ---
 
 ### 🌟 Featured Projects
 
+Berikut adalah beberapa proyek yang saya bangun untuk menyelesaikan kebutuhan nyata dan mengeksplorasi teknologi modern:
+
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 #### 🤖 [Todo List + AI RAG Suite](https://todo-list-zalde.vercel.app/)
-**React 19 · TypeScript · Bun · Elysia · Tailwind v4 · pgvector**
+**React 19 · Bun · ElysiaJS · Tailwind v4 · Drizzle · pgvector · Playwright**
 
-AI-powered task management dengan Kanban, semantic vector search, dan integrasi WhatsApp. Bukan todo biasa.
+Aplikasi task management dengan Kanban board dan pencarian semantik (RAG) berbasis vector embeddings.
+- Fitur pencarian task berdasarkan makna (semantic search) via pgvector.
+- Backend efisien menggunakan runtime Bun dan ElysiaJS.
+- Dilengkapi automated E2E testing dengan Playwright & GitHub Actions.
 
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/todo-list-zalde) [![Live](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://todo-list-zalde.vercel.app/)
-
-</td>
-<td width="50%">
-
-#### ⚡ [WhatsApp Bot Engine](https://github.com/alberic13/whatsap-auto-reply-Golang)
-**Golang · WhatsApp Bot API**
-
-High-performance automated WhatsApp responder. Pure Go, no framework bloat.
-
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/whatsap-auto-reply-Golang)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://todo-list-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/todo-list-zalde)
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 💼 [POS Web Zalde](https://pos-web-zalde.vercel.app/login)
-**React · TypeScript · Tailwind CSS**
+#### 🏢 [CRM Web Platform](https://crm-web-zalde.vercel.app)
+**Next.js 16 · React 19 · TypeScript · Prisma ORM · Neon PostgreSQL**
 
-Point of Sales modern — katalog produk, transaksi real-time, riwayat penjualan.
+Platform CRM untuk pengelolaan leads dan customer service ticket.
+- Visualisasi pipeline penjualan interaktif dengan drag-and-drop.
+- Sistem ticketing komprehensif dengan metrik performa penanganan support.
+- Terintegrasi dengan database serverless Neon PostgreSQL.
 
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/pos-web-zalde) [![Live](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://pos-web-zalde.vercel.app/login)
-
-</td>
-<td width="50%">
-
-#### 📊 [CRM Web](https://crm-web-zalde.vercel.app/login)
-**React · TypeScript · Tailwind CSS**
-
-Customer Relationship Management — leads pipeline, data klien, analytics.
-
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/CRM-web) [![Live](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://crm-web-zalde.vercel.app/login)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://crm-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/CRM-web)
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 💄 [LKP Exotic](https://belajar-nextjs-taupe.vercel.app/)
-**Next.js 16 · React 19 · Tailwind v4 · Three.js · GSAP · Drizzle ORM**
+#### 💳 [POS Web Zalde](https://pos-web-zalde.vercel.app)
+**React 18 · TypeScript · Tailwind CSS · Prisma · PostgreSQL**
 
-Beauty salon landing page & LMS foundation — 3D interactive, secure auth, dan arsitektur modular.
+Aplikasi Point of Sale kasir dan manajemen inventaris toko.
+- Pengelolaan multi-gudang, stok opname, dan riwayat transaksi real-time.
+- Ekspor Purchase Order (PO) otomatis via WhatsApp ke supplier.
+- Fitur chat internal toko untuk komunikasi kasir dan staf gudang.
 
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/belajar-nextjs) [![Live](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://pos-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/pos-web-zalde)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-#### 🌿 [Plant Watering Reminder](https://github.com/alberic13/plant_watering_reminder)
-**Flutter · Dart**
+#### ⚡ [WhatsApp Auto-Reply Bot](https://github.com/alberic13/whatsap-auto-reply-Golang)
+**Golang · Google Gemini AI · MySQL**
 
-Mobile app pengingat perawatan tanaman dengan UI intuitif.
+Layanan bot otomatis WhatsApp dan Telegram berbasis Go berkecepatan tinggi.
+- Concurrency efisien dengan Goroutine untuk menangani pesan secara paralel.
+- Terintegrasi dengan Google Gemini AI untuk menjawab pertanyaan secara kontekstual.
+- Penyimpanan log dan riwayat pesan ke database MySQL.
 
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/plant_watering_reminder)
+[![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/whatsap-auto-reply-Golang)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛍️ [Game Marketplace](https://github.com/alberic13/marketplace)
+**Laravel 12 · Inertia.js · React · Tailwind CSS**
+
+Platform e-commerce untuk katalog game fisik dan lisensi digital.
+- Arsitektur modern monolith menggunakan Laravel 12 dan Inertia.js React.
+- Manajemen produk, keranjang belanja, dan distribusi serial key game.
+
+[![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/marketplace)
+
+</td>
+<td width="50%" valign="top">
+
+#### ✨ [LKP Exotic](https://belajar-nextjs-taupe.vercel.app)
+**Next.js · React 19 · Three.js · GSAP · Drizzle ORM**
+
+Landing page profil lembaga pelatihan salon kecantikan dan pondasi LMS.
+- Tampilan modern dengan elemen 3D interaktif Three.js dan transisi GSAP.
+- Integrasi modul kursus ke database Drizzle ORM dan MySQL.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/LKP-EXOTIC)
 
 </td>
 </tr>
@@ -117,59 +139,35 @@ Mobile app pengingat perawatan tanaman dengan UI intuitif.
 
 ---
 
-### 🛠️ Tech Stack
+### 🎯 Nilai Positif untuk Tim Engineering
+
+- **Cepat Beradaptasi:** Terbiasa mengeksplorasi dan mengadopsi teknologi baru sesuai kebutuhan proyek.
+- **Kolaboratif & Komunikatif:** Terbiasa dengan alur kerja Git (branching, PR, clean commit) dan dokumentasi yang jelas.
+- **Fokus pada Kualitas:** Menjaga kode tetap rapi, konsisten, dan meminimalisir bug sejak tahap penulisan.
+
+---
+
+### 🛠️ Tech Stack & Tools
 
 <div align="center">
 
-#### 🌐 Frontend
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-#### ⚙️ Backend & Runtime
-![Golang](https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Elysia](https://img.shields.io/badge/Elysia-8B5CF6?style=for-the-badge&logoColor=white)
-
-#### 🗄️ Database
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-#### 📱 Mobile
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-#### 🚀 Tools & DevOps
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+| Kategori | Teknologi |
+| :--- | :--- |
+| **Frontend** | ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Tailwind v4](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Backend** | ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Elysia](https://img.shields.io/badge/ElysiaJS-8B5CF6?style=flat-square&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
+| **Database & AI** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logoColor=black) |
+| **Mobile & Tools** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
 
 </div>
 
 ---
 
-### 🌱 Currently Exploring
-
-- [ ] 🦀 **Rust** — systems programming & WebAssembly
-- [x] 🧠 **LLM & AI Agents** — building smarter, context-aware applications
-- [x] ☁️ **Cloud Native** — Docker, CI/CD pipelines, serverless architectures
-
----
-
-### 📊 GitHub Metrics
+### 📈 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=alberic13&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberic13&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=alberic13&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberic13&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
 
 <br/>
 
@@ -179,18 +177,22 @@ Mobile app pengingat perawatan tanaman dengan UI intuitif.
 
 ---
 
-### 📬 Let's Connect
+### 📬 Get In Touch
+
+Saya terbuka untuk peluang kerja sama, diskusi teknis, maupun kesempatan berkarier sebagai **Frontend / Fullstack Developer**.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muchammad_Zalde-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/)
-[![Email](https://img.shields.io/badge/Email-zaldealberic@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaldealberic@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-alberic13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alberic13)
+<a href="https://www.linkedin.com/in/muchammad-zalde-zahwa-putra-20a83b2a7/">
+  <img src="https://img.shields.io/badge/LinkedIn-Muchammad_Zalde-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="38" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:zaldealberic@gmail.com">
+  <img src="https://img.shields.io/badge/Email-zaldealberic@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="38" alt="Email" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/alberic13">
+  <img src="https://img.shields.io/badge/GitHub-alberic13-181717?style=for-the-badge&logo=github&logoColor=white" height="38" alt="GitHub" />
+</a>
 
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=alberic13&color=10B981&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
