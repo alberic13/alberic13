@@ -56,7 +56,7 @@ Berikut adalah beberapa proyek yang saya bangun untuk menyelesaikan kebutuhan ny
 <tr>
 <td width="50%" valign="top">
 
-#### 🤖 [Todo List + AI RAG Suite](https://todo-list-zalde.vercel.app/)
+#### 🤖 01. [Todo List + AI RAG Suite](https://todo-list-zalde.vercel.app/)
 **React 19 · Bun · ElysiaJS · Tailwind v4 · Drizzle · pgvector · Playwright**
 
 Aplikasi task management dengan Kanban board dan pencarian semantik (RAG) berbasis vector embeddings.
@@ -69,10 +69,25 @@ Aplikasi task management dengan Kanban board dan pencarian semantik (RAG) berbas
 </td>
 <td width="50%" valign="top">
 
-#### 🏢 [CRM Web Platform](https://crm-web-zalde.vercel.app)
+#### 💳 02. [POS Web Zalde](https://pos-web-zalde.vercel.app)
+**React 18 · TypeScript · Tailwind CSS · Prisma · PostgreSQL**
+
+Aplikasi Point of Sale kasir dan manajemen inventaris toko multi-gudang.
+- Pengelolaan multi-gudang, stok opname, dan riwayat transaksi real-time.
+- Ekspor Purchase Order (PO) otomatis via WhatsApp ke supplier dalam 1 klik.
+- Fitur chat internal toko untuk komunikasi kasir dan staf gudang.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://pos-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/pos-web-zalde)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏢 03. [CRM Web Platform](https://crm-web-zalde.vercel.app)
 **Next.js 16 · React 19 · TypeScript · Prisma ORM · Neon PostgreSQL**
 
-Platform CRM untuk pengelolaan leads dan customer service ticket.
+Platform CRM untuk pengelolaan leads dan customer service support ticket.
 - Visualisasi pipeline penjualan interaktif dengan drag-and-drop.
 - Sistem ticketing komprehensif dengan metrik performa penanganan support.
 - Terintegrasi dengan database serverless Neon PostgreSQL.
@@ -80,24 +95,64 @@ Platform CRM untuk pengelolaan leads dan customer service ticket.
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://crm-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/CRM-web)
 
 </td>
+<td width="50%" valign="top">
+
+#### 🏘️ 04. [System RT (Administrasi & Kas)](https://system-rt-zalde.vercel.app/)
+**React 19 · Vite · Tailwind v4 · Recharts · TypeScript**
+
+Aplikasi web manajemen administrasi warga dan transparansi kas keuangan RT.
+- Pendataan data warga, histori hunian rumah, dan penagihan iuran warga.
+- Visualisasi grafik arus kas masuk dan keluar secara transparan dengan Recharts.
+- Dibangun dengan stack modern React 19 dan Tailwind CSS v4.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://system-rt-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/system-rt)
+
+</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 💳 [POS Web Zalde](https://pos-web-zalde.vercel.app)
-**React 18 · TypeScript · Tailwind CSS · Prisma · PostgreSQL**
+#### 🧠 05. [Personality & Career Assessment](https://personality-test-omega-three.vercel.app)
+**React · TypeScript · Tailwind CSS · Dynamic SVG Charts · Google Sheets API**
 
-Aplikasi Point of Sale kasir dan manajemen inventaris toko.
-- Pengelolaan multi-gudang, stok opname, dan riwayat transaksi real-time.
-- Ekspor Purchase Order (PO) otomatis via WhatsApp ke supplier.
-- Fitur chat internal toko untuk komunikasi kasir dan staf gudang.
+Aplikasi asesmen psikologi & potensi diri interaktif (Kecerdasan Majemuk, RIASEC, VAK).
+- Visualisasi skor asesmen interaktif menggunakan Radar Chart SVG dinamis.
+- Perhitungan kalkulasi skor otomatis dengan integrasi real-time ke Google Sheets.
+- Antarmuka kuesioner yang bersih, responsif, dan mudah digunakan.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://pos-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/pos-web-zalde)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://personality-test-omega-three.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/personality-test)
 
 </td>
 <td width="50%" valign="top">
 
-#### ⚡ [WhatsApp Auto-Reply Bot](https://github.com/alberic13/whatsap-auto-reply-Golang)
+#### 🏫 06. [Sistem Keuangan Sekolah (SPP)](https://github.com/alberic13/keuangan-app)
+**Laravel 11 · Livewire · MariaDB · Spatie Permission · PDF & Excel**
+
+Sistem administrasi tata kelola keuangan sekolah/madrasah terstruktur.
+- Manajemen SPP, pencatatan pembayaran, dan tracking tunggakan siswa.
+- Multi-role permission yang ketat menggunakan Spatie (Admin, Bendahara, Siswa).
+- Otomasi cetak kuitansi PDF resmi dan ekspor laporan rekapitulasi Excel.
+
+[![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/keuangan-app)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ✨ 07. [LKP Exotic](https://belajar-nextjs-taupe.vercel.app)
+**Next.js · React 19 · Three.js · GSAP · Drizzle ORM**
+
+Landing page profil lembaga pelatihan salon kecantikan dan pondasi LMS.
+- Tampilan modern dengan elemen 3D interaktif Three.js dan transisi GSAP.
+- Integrasi modul kursus ke database Drizzle ORM dan MySQL.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/LKP-EXOTIC)
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚡ 08. [WhatsApp Auto-Reply Bot](https://github.com/alberic13/whatsap-auto-reply-Golang)
 **Golang · Google Gemini AI · MySQL**
 
 Layanan bot otomatis WhatsApp dan Telegram berbasis Go berkecepatan tinggi.
@@ -106,32 +161,6 @@ Layanan bot otomatis WhatsApp dan Telegram berbasis Go berkecepatan tinggi.
 - Penyimpanan log dan riwayat pesan ke database MySQL.
 
 [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/whatsap-auto-reply-Golang)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛍️ [Game Marketplace](https://github.com/alberic13/marketplace)
-**Laravel 12 · Inertia.js · React · Tailwind CSS**
-
-Platform e-commerce untuk katalog game fisik dan lisensi digital.
-- Arsitektur modern monolith menggunakan Laravel 12 dan Inertia.js React.
-- Manajemen produk, keranjang belanja, dan distribusi serial key game.
-
-[![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/marketplace)
-
-</td>
-<td width="50%" valign="top">
-
-#### ✨ [LKP Exotic](https://belajar-nextjs-taupe.vercel.app)
-**Next.js · React 19 · Three.js · GSAP · Drizzle ORM**
-
-Landing page profil lembaga pelatihan salon kecantikan dan pondasi LMS.
-- Tampilan modern dengan elemen 3D interaktif Three.js dan transisi GSAP.
-- Integrasi modul kursus ke database Drizzle ORM dan MySQL.
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/LKP-EXOTIC)
 
 </td>
 </tr>
