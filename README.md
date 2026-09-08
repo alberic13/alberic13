@@ -94,12 +94,12 @@ Customer Relationship Management — leads pipeline, data klien, analytics.
 <tr>
 <td width="50%">
 
-#### 🧠 [Personality Test](https://personality-test-omega-three.vercel.app)
-**React · TypeScript · Tailwind CSS**
+#### 💄 [LKP Exotic](https://belajar-nextjs-taupe.vercel.app/)
+**Next.js 16 · React 19 · Tailwind v4 · Three.js · GSAP · Drizzle ORM**
 
-Asesmen psikologi interaktif dengan scoring otomatis dan visual reporting.
+Beauty salon landing page & LMS foundation — 3D interactive, secure auth, dan arsitektur modular.
 
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/personality-test) [![Live](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://personality-test-omega-three.vercel.app)
+[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/belajar-nextjs) [![Live](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app/)
 
 </td>
 <td width="50%">
@@ -158,9 +158,9 @@ Mobile app pengingat perawatan tanaman dengan UI intuitif.
 
 ### 🌱 Currently Exploring
 
-- 🦀 **Rust** — systems programming & WebAssembly
-- 🧠 **LLM & AI Agents** — building smarter, context-aware applications
-- ☁️ **Cloud Native** — Docker, CI/CD pipelines, serverless architectures
+- [ ] 🦀 **Rust** — systems programming & WebAssembly
+- [x] 🧠 **LLM & AI Agents** — building smarter, context-aware applications
+- [x] ☁️ **Cloud Native** — Docker, CI/CD pipelines, serverless architectures
 
 ---
 
