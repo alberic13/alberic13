@@ -104,12 +104,12 @@ Asesmen psikologi interaktif dengan scoring otomatis dan visual reporting.
 </td>
 <td width="50%">
 
-#### 🌿 [Plant Watering Reminder](https://github.com/alberic13/plant_watering_reminder-main)
+#### 🌿 [Plant Watering Reminder](https://github.com/alberic13/plant_watering_reminder)
 **Flutter · Dart**
 
 Mobile app pengingat perawatan tanaman dengan UI intuitif.
 
-[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/plant_watering_reminder-main)
+[![Code](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github)](https://github.com/alberic13/plant_watering_reminder)
 
 </td>
 </tr>
