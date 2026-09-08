@@ -28,29 +28,29 @@
 
 ### 🧑‍💻 About Me
 
-Saya adalah seorang **Software Engineer** yang berfokus pada pengembangan antarmuka modern yang responsif serta sistem backend yang terstruktur dan andal. Selalu mengedepankan **clean architecture**, **type safety**, dan **validasi data defensif** untuk membangun produk yang mudah dirawat dalam jangka panjang:
+I am a **Software Engineer** focused on developing responsive, modern user interfaces and reliable, well-structured backend systems. I prioritize **clean architecture**, **type safety**, and **defensive validation** to build software that is easy to maintain and scale:
 
-- 🌐 **Frontend Development:** Mengembangkan SPA & SSR interaktif berperforma tinggi dengan React 19, Next.js (App Router), TypeScript, dan Tailwind CSS.
-- ⚙️ **Backend Engineering:** Membangun RESTful API berlatensi rendah dengan Golang (Gin), Bun + Elysia.js, serta arsitektur MVC/Livewire dengan Laravel.
-- 🗄️ **Database, Cache & AI:** Mendesain skema relasional (PostgreSQL, MySQL), caching memori (Upstash Redis), dan pencarian semantik AI menggunakan `pgvector`.
-- 🧪 **Disiplin Kualitas (QA):** Menerapkan validasi skema ketat (Zod), typecheck statis (`tsc`), automated integration testing, serta E2E browser testing (Playwright).
+- 🌐 **Frontend Engineering:** Building interactive, high-performance SPAs & SSR applications using React 19, Next.js (App Router), TypeScript, and Tailwind CSS.
+- ⚙️ **Backend Engineering:** Developing low-latency RESTful APIs with Golang (Gin), Bun + Elysia.js, and structured MVC/Livewire architectures with Laravel.
+- 🗄️ **Database, Cache & AI:** Designing relational schemas (PostgreSQL, MySQL), in-memory caching (Upstash Redis), and semantic vector search using `pgvector`.
+- 🧪 **Quality Assurance (QA):** Enforcing strict runtime schema validation (Zod), static type-checking (`tsc`), automated integration tests, and Playwright E2E browser testing.
 
 ---
 
 ### 🛠️ Core Competencies
 
-| Bidang | Spesialisasi & Teknologi Utama |
+| Domain | Core Technologies & Specializations |
 | :--- | :--- |
-| **Frontend Engineering** | React 19, Next.js 16 (App Router), TypeScript, Tailwind CSS v4, Vanilla CSS Modules, React Hook Form, Recharts, Three.js dasar |
-| **Backend & Microservices** | Golang (Gin), Bun, Elysia.js, Laravel 11, Node.js, RESTful API Design, JWT Auth (Argon2id/Bcrypt), Zod Validation |
+| **Frontend Engineering** | React 19, Next.js 16 (App Router), TypeScript, Tailwind CSS v4, Vanilla CSS Modules, React Hook Form, Recharts, Three.js fundamentals |
+| **Backend & Microservices** | Golang (Gin), Bun, Elysia.js, Laravel 11, Node.js, RESTful API Design, JWT Authentication (Argon2id / Bcrypt), Zod Schema Validation |
 | **Database, Cache & AI** | PostgreSQL, MySQL, MariaDB, Upstash Redis (Caching & Rate Limiting), Prisma ORM, Drizzle ORM, pgvector (Semantic Search) |
-| **Testing, CI/CD & DevOps** | Playwright (E2E Browser Testing), Bun Test Suite, GitHub Actions CI/CD Pipeline, Oxlint / ESLint, Vercel Serverless |
+| **Testing, CI/CD & DevOps** | Playwright (E2E Browser Testing), Bun Test Suite, GitHub Actions CI/CD Pipelines, Oxlint / ESLint, Vercel Serverless |
 
 ---
 
 ### 🌟 Featured Projects
 
-Berikut adalah proyek-proyek terpilih yang mencerminkan kemampuan arsitektur, penyelesaian masalah bisnis, dan kedalaman teknis nyata:
+A curated selection of production-deployed applications demonstrating real-world architecture, business workflow handling, and technical depth:
 
 <table>
 <tr>
@@ -59,13 +59,13 @@ Berikut adalah proyek-proyek terpilih yang mencerminkan kemampuan arsitektur, pe
 #### 🤖 01. [Todo List + AI RAG Suite](https://todo-list-zalde.vercel.app/)
 **React 19 · TypeScript · Bun · Elysia.js · Upstash Redis · pgvector · Playwright**
 
-Aplikasi task management dengan Kanban board terintegrasi pencarian semantik (RAG) dan sinkronisasi kalender live.
-- **Arsitektur Modular Monorepo:** Terpisah antara frontend (`Vite + React 19`) dan backend (`Bun + Elysia.js`) dengan middleware otorisasi terpusat (`requireAuth`) pada 15+ endpoint.
-- **Semantic Vector Search (RAG):** Integrasi `pgvector` & Google Gemini embedding (768-dim) untuk pencarian tugas kontekstual bahasa alami dan auto task breakdown.
-- **In-Memory Caching & Rate Limiting:** Integrasi REST **Upstash Redis** untuk optimasi caching data dan perlindungan rate limiting pada endpoint AI.
-- **Live Webcal Calendar (RFC 5545):** Sinkronisasi jadwal otomatis 2 arah ke Google Calendar, Apple Calendar, & Outlook dengan token reset keamanan.
-- **Otomasi Cron & Email Notifikasi:** Background cron Vercel terproteksi `CRON_SECRET` untuk pengingat deadline H-3 dan tugas overdue via email HTML responsif.
-- **Kolaborasi & Testing Teruji:** Real-time task sharing via invite code, 100% type-safe (`tsc`), unit test `bun test` (10/10), serta E2E browser testing dengan Playwright di GitHub Actions CI.
+A fullstack productivity suite featuring Kanban workflows, semantic AI search (RAG), and real-time calendar synchronization.
+- **Modular Monorepo Architecture:** Clean decoupling between frontend (`Vite + React 19`) and backend (`Bun + Elysia.js`), with centralized authentication middleware (`requireAuth`) securing 15+ endpoints.
+- **Semantic Vector Search (RAG):** Integrates `pgvector` and Google Gemini embeddings (768-dim) for contextual natural-language task retrieval and automated task breakdown.
+- **In-Memory Caching & Rate Limiting:** Utilizes **Upstash Redis** REST integration for low-latency query caching and API abuse prevention on AI endpoints.
+- **Live Webcal Subscription (RFC 5545):** Two-way automated schedule synchronization with Google Calendar, Apple Calendar, and Outlook, featuring secure URL/token regeneration.
+- **Automated Cron & Email Dispatch:** Scheduled Vercel Cron jobs protected by `CRON_SECRET` dispatching H-3 deadline reminders and overdue notices via responsive dark-mode HTML emails.
+- **Collaboration & Test Coverage:** Real-time multi-user task sharing via invite codes, 100% type safety (`tsc`), `bun test` integration suites (10/10), and Playwright E2E browser automation in GitHub Actions CI.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://todo-list-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/todo-list-zalde)
 
@@ -75,12 +75,12 @@ Aplikasi task management dengan Kanban board terintegrasi pencarian semantik (RA
 #### 💳 02. [POS Web Zalde](https://pos-web-zalde.vercel.app)
 **React 18 · TypeScript · Tailwind CSS · Prisma ORM · Elysia API · PostgreSQL**
 
-Sistem Point of Sale (POS) kasir dan manajemen inventaris multi-gudang siap pakai untuk operasional ritel.
-- **Multi-Warehouse Stock Tracking:** Manajemen inventaris dual-stok (Stok Etalase toko vs Stok Cadangan Gudang), kalkulasi transaksi real-time, dan alert stok menipis (≤ 5 unit).
-- **Otomasi Purchase Order (PO) Supplier:** Modul restock cerdas yang mengonversi kebutuhan pasokan ke format PO terstruktur dan mengirimkannya langsung ke WhatsApp vendor dalam 1 klik.
-- **Kompresi Gambar WebP di Browser:** Utility client-side (`imageCompressor.ts`) yang otomatis me-resize & mengompres foto produk (JPG/PNG) menjadi WebP (15–30 KB) sebelum diunggah ke cloud.
-- **Komunikasi Internal Toko:** Floating chat widget berbasis peran (Kasir Toko Depan & Tim Gudang) dengan template pesan cepat permintaan restok etalase.
-- **Sinkronisasi Data Cloud & Testing:** Script sinkronisasi bi-directional database (`syncFromCloud`/`syncToCloud`) antara PostgreSQL lokal dan Neon Cloud, teruji via 7 test suite Bun Test.
+A production-ready Point of Sale (POS) and multi-warehouse inventory management system tailored for retail operations.
+- **Multi-Warehouse Dual-Stock Engine:** Explicit relational tracking between front-store display inventory and warehouse backup reserves, with real-time transaction recalculations and low-stock alerts (≤ 5 units).
+- **Automated Supplier Purchase Orders (PO):** Smart replenishment module generating structured purchase orders dispatched directly to vendor WhatsApp in one click.
+- **Client-Side WebP Compression:** Custom browser-side image processing utility (`imageCompressor.ts`) resizing and converting product images to lightweight WebP (15–30 KB) prior to network upload.
+- **In-Store Team Communication:** Event-driven floating chat drawer enabling instant cashier-to-warehouse restocking requests with quick-action templates.
+- **Cloud Data Pipeline & Testing:** Bi-directional database synchronization scripts (`syncFromCloud`/`syncToCloud`) bridging local PostgreSQL and Neon Cloud, validated with 7 Bun integration test suites.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://pos-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/pos-web-zalde)
 
@@ -92,26 +92,26 @@ Sistem Point of Sale (POS) kasir dan manajemen inventaris multi-gudang siap paka
 #### 🏢 03. [CRM Web Platform](https://crm-web-zalde.vercel.app)
 **Next.js 16 · React 19 · TypeScript · Zod · Prisma ORM · Neon PostgreSQL**
 
-Platform CRM komprehensif untuk otomatisasi pipeline penjualan, direktori B2B, dan customer support ticketing.
-- **Defensive API Validation:** Validasi skema runtime dan sanitasi input form secara ketat menggunakan **Zod** pada seluruh boundary API route handler, mencegah SQL injection bersama Prisma ORM.
-- **Sales Deal Pipeline:** Manajemen opportunity penjualan multi-tahap (*Pending, Won, In Progress, Lost*) dengan tracking estimasi nilai closing dan histori interaksi tim sales.
-- **Service Desk & SLA Countdown:** Sistem tiket pengaduan dengan severity (*Critical, Major, Minor*), timer countdown sisa SLA resolusi secara real-time, dan agregasi skor kepuasan pelanggan (CSAT review).
-- **Knowledge Base Terintegrasi:** Pusat dokumentasi solusi internal berbasis Markdown dengan indexing kategori dan view counter untuk menekan tiket berulang.
-- **Zero Lint & Type-Safe Architecture:** Next.js App Router dengan Server Components, Vanilla CSS Modules bebas konflik styling, dan 100% lolos verifikasi TypeScript (`tsc --noEmit`).
+An enterprise-grade CRM web platform for sales opportunity pipeline automation, B2B account directories, and customer service ticketing.
+- **Defensive API Validation:** Enforces strict runtime payload validation and form sanitization via **Zod** across all API route handlers, preventing SQL injection alongside Prisma ORM parameterization.
+- **Sales Opportunity Pipeline:** Multi-stage deal tracking (*Pending, Won, In Progress, Lost*) with expected close revenue aggregation and timestamped team activity feeds.
+- **Service Desk & SLA Countdown:** Comprehensive ticketing engine with severity levels (*Critical, Major, Minor*), live countdown timers for remaining SLA resolution windows, and CSAT customer review feeds (96.5% satisfaction).
+- **Integrated Knowledge Base:** Internal solutions repository with Markdown rendering, category tagging, and view-count analytics to deflect recurring inquiries.
+- **Zero-Debt Type-Safe Architecture:** Next.js App Router with Server Components, scoped Vanilla CSS Modules, and 100% clean TypeScript verification (`tsc --noEmit`).
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://crm-web-zalde.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/CRM-web)
 
 </td>
 <td width="50%" valign="top">
 
-#### 🏘️ 04. [System RT (Administrasi & Kas)](https://system-rt-zalde.vercel.app/)
+#### 🏘️ 04. [System RT (Community & Dues)](https://system-rt-zalde.vercel.app/)
 **React 19 · Vite 8 · React Router v7 · Tailwind v4 · Recharts 3 · Oxlint**
 
-Aplikasi web SPA manajemen administrasi kependudukan dan transparansi pembukuan kas warga RT.
-- **Kependudukan & Audit Trail Hunian:** Manajemen data 20 unit rumah (Blok A & B), verifikasi KTP warga, status huni (Tetap vs Kontrak), dan log histori mutasi masuk/keluar otomatis (`RiwayatPenghuni`).
-- **Logika Billing Iuran Fleksibel:** Penagihan iuran Satpam (Rp 100k) & Kebersihan (Rp 15k) bersyarat (hanya ditagih bila rumah kontrak berpenghuni), dengan opsi bayar bulanan atau 1 tahun lunas.
-- **Buku Kas & Visualisasi Keuangan:** Pencatatan pengeluaran rutin (gaji satpam, listrik pos) dan insidental (perbaikan jalan) dengan grafik tren kas Recharts serta fitur cetak laporan keuangan.
-- **Modern Tooling & Kualitas Kode:** Dibangun di atas Vite 8, React 19, React Router v7, styling Tailwind CSS v4, dan terverifikasi bersih menggunakan linter Rust performa tinggi **Oxlint** (0 errors, 92 rules) pada GitHub Actions CI.
+A Single Page Application (SPA) for neighborhood residency administration and financial ledger transparency.
+- **Residency Lifecycle & Audit Trail:** Relational record management for 20 residential housing units (Blocks A & B), KTP identity verification, occupancy state (Permanent vs. Tenant), and automated move-in/move-out historical logs (`RiwayatPenghuni`).
+- **Conditional Billing Rules:** Automated fee collection for Security (Rp 100k) and Sanitation (Rp 15k) with conditional waiver logic for vacant rental units, supporting monthly or 1-year lump-sum payments.
+- **Financial Ledger & Cashflow Analytics:** Visual cashflow analytics via Recharts tracking routine overhead (security salaries, utilities) and maintenance costs, with printable financial report exports.
+- **Modern Tooling & Code Health:** Powered by Vite 8, React 19, React Router v7, and Tailwind CSS v4, strictly audited by the high-performance Rust linter **Oxlint** (0 errors, 92 rules) in CI/CD.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://system-rt-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/system-rt)
 
@@ -123,26 +123,26 @@ Aplikasi web SPA manajemen administrasi kependudukan dan transparansi pembukuan 
 #### 🧠 05. [Personality & Career Assessment](https://personality-test-omega-three.vercel.app)
 **Next.js 16 · React 19 · NextAuth v5 · React Hook Form · Zod · Dynamic SVG**
 
-Platform asesmen psikometri interaktif multi-dimensi untuk pemetaan potensi diri, karir, dan gaya belajar.
-- **Tiga Model Psikometri Terstandar:** Mengimplementasikan teori Kecerdasan Majemuk Howard Gardner (80 soal, 8 domain), Minat Karir RIASEC John Holland (42 soal, 6 tipe), dan Modalitas Belajar VAK (27 soal).
-- **Dynamic Polar SVG Radar Chart:** Visualisasi skor psikometri dirender langsung menggunakan kalkulasi matematika polar SVG kustom (segitiga VAK, heksagon RIASEC, oktagon Gardner) tanpa dependensi chart berat.
-- **Arsitektur Form Skala Besar:** Pengelolaan 80+ input pertanyaan menggunakan `react-hook-form` untuk performa render optimal tanpa lag, divalidasi ketat dengan skema `Zod`.
-- **Integrasi Cloud & NextAuth v5:** Penyimpanan otomatis hasil tes pengguna ke database Google Sheets via API webhook, dilengkapi manajemen sesi autentikasi modern NextAuth v5 (Auth.js).
+A multi-dimensional psychometric assessment platform for evaluating cognitive potential, career interests, and learning styles.
+- **Three Standardized Psychometric Frameworks:** Implements Howard Gardner’s Multiple Intelligences (80 questions, 8 domains), John Holland’s RIASEC Career Codes (42 questions, 6 archetypes), and VAK Learning Modalities (27 questions).
+- **Dynamic Polar SVG Radar Charts:** Math-driven custom SVG radar rendering (triangles for VAK, hexagons for RIASEC, octagons for Gardner) without heavy third-party chart dependencies.
+- **High-Volume Form State Management:** Powered by `react-hook-form` to eliminate lag and redundant re-renders across 80+ questions, validated with strict `Zod` schemas.
+- **Cloud Integration & NextAuth v5:** Automated test result persistence to Google Sheets API webhooks, backed by modern NextAuth v5 (Auth.js) session authentication.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://personality-test-omega-three.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/personality-test)
 
 </td>
 <td width="50%" valign="top">
 
-#### 🏫 06. [Sistem Keuangan Sekolah (SPP)](https://github.com/alberic13/keuangan-app)
+#### 🏫 06. [School Financial System (SPP)](https://github.com/alberic13/keuangan-app)
 **Laravel 11 · Livewire 4 · MariaDB · Spatie Permission · DomPDF · Excel**
 
-Sistem informasi tata kelola administrasi keuangan dan penagihan biaya pendidikan institusi madrasah.
-- **Keamanan RBAC 5-Level:** Kontrol hak akses berbasis peran menggunakan `spatie/laravel-permission` memisahkan otorisasi: `admin_keuangan`, `bendahara`, `kepala_madrasah`, `waka`, dan `admin_tu`.
-- **Billing SPP & Kebijakan Tunggakan:** Pengelolaan SPP reguler, dana kegiatan (Full Day), uang makan (Boarding), dengan pencatatan tunggakan tahun ajaran lalu sebagai invoice terbuka yang terstruktur.
-- **Pelaporan & Cetak Dokumen Resmi:** Pembukuan Buku Kas Umum (BKU), cetak bukti kuitansi pembayaran format PDF via `laravel-dompdf`, dan ekspor rekapitulasi data keuangan ke Excel via `laravel-excel`.
-- **Migrasi Data & Backup Cloud:** Dilengkapi command konsol khusus (`php artisan legacy:import-transaksi`) untuk migrasi skema database lama, serta integrasi backup file ke Google Drive Filesystem.
-- **Antarmuka Reaktif Livewire:** UI dinamis tanpa reload halaman menggunakan komponen reaktif Livewire 4, didukung background queue worker untuk proses data intensif.
+An institutional financial administration and tuition management system built for educational institutions.
+- **5-Tier RBAC Security:** Role-Based Access Control implemented via `spatie/laravel-permission` across five roles: `admin_keuangan`, `bendahara`, `kepala_madrasah`, `waka`, and `admin_tu`.
+- **Institutional Tuition & Arrears Engine:** Handles standard tuition (SPP), Full-Day activity fees, and Boarding meal plans, tracking historical arrears as persistent open invoices across academic years.
+- **Accounting & Official Document Generation:** Automated General Cash Book (*Buku Kas Umum* - BKU), printable payment receipts via `laravel-dompdf`, and bulk Excel data exports via `laravel-excel`.
+- **Database Migration & Cloud Backup:** Custom console command (`php artisan legacy:import-transaksi`) migrating legacy schema transactions without downtime, paired with Google Drive cloud backup storage.
+- **Reactive Livewire UI:** Instantaneous interface interactions without full page reloads via Livewire 4, supported by database queue workers.
 
 [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/keuangan-app)
 
@@ -154,11 +154,11 @@ Sistem informasi tata kelola administrasi keuangan dan penagihan biaya pendidika
 #### ✨ 07. [LKP Exotic](https://belajar-nextjs-taupe.vercel.app)
 **Next.js 16 · React 19 · Three.js · GSAP · Drizzle ORM · MySQL2 · Zod**
 
-Web portal profil komersial lembaga kursus kecantikan dan fondasi sistem manajemen kursus (LMS).
-- **Interaktivitas 3D WebGL (Three.js):** Viewport 3D interaktif kustom (`ThreeDSlider.js`) dan efek kursor yang dioptimasi untuk berjalan stabil di 60 FPS pada perangkat mobile maupun desktop.
-- **Arsitektur Autentikasi Mandiri:** Sistem autentikasi stateless berbasis token JWT menggunakan library `jose` dan enkripsi `bcryptjs` yang berjalan aman melalui Next.js Server Actions dan secure cookie.
-- **Type-Safe ORM & Skema Data:** Pengelolaan model data pendaftaran kursus menggunakan `Drizzle ORM` + driver `mysql2`, dengan validasi skema data defensif menggunakan `Zod`.
-- **Koreografi Animasi Halus:** Transisi antar bagian halaman yang mulus menggunakan `@gsap/react` dan Framer Motion tanpa menyebabkan Cumulative Layout Shift (CLS: 0).
+A commercial web portal and LMS foundation for a vocational beauty academy.
+- **Interactive 3D WebGL (Three.js):** Custom Three.js 3D viewport (`ThreeDSlider.js`) and cursor interactions optimized for consistent 60 FPS performance and zero Cumulative Layout Shift (CLS: 0).
+- **Custom Stateless JWT Auth:** Handcrafted token-based authentication using `jose` and `bcryptjs` running securely through Next.js Server Actions and HTTP-only cookies.
+- **Type-Safe ORM Layer:** Structured course enrollment database layer built on `Drizzle ORM` + `mysql2`, with defensive `Zod` validation.
+- **Choreographed Micro-Interactions:** Smooth scroll-linked animations powered by `@gsap/react` and Framer Motion for a polished commercial brand feel.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/LKP-EXOTIC)
 
@@ -168,12 +168,12 @@ Web portal profil komersial lembaga kursus kecantikan dan fondasi sistem manajem
 #### ⚡ 08. [WhatsApp Auto-Reply Bot](https://github.com/alberic13/whatsap-auto-reply-Golang)
 **Golang 1.26 · Gin · Whatsmeow · Telegram API · Gemini AI SDK · GORM**
 
-Service backend otomasi perpesanan berkecepatan tinggi dengan integrasi AI dan protokol multi-channel.
-- **Konkurensi Tinggi & Efisiensi Memori:** Memanfaatkan Goroutine dan Go Channels untuk memproses lalu lintas pesan masuk secara paralel dengan latensi sangat rendah dan alokasi memori minimal.
-- **Protokol Socket WhatsApp Murni:** Terhubung langsung ke level WebSocket protokol WhatsApp via `whatsmeow` (pairing QR terminal), tanpa membutuhkan browser headless (Puppeteer) yang berat.
-- **Router Pesan Multi-Channel:** Arsitektur terpadu yang menjembatani event socket WhatsApp dan polling Telegram Bot API ke satu sistem pengendali terpusat.
-- **Integrasi LLM & Pemesanan Katalog:** Terkoneksi ke SDK resmi `google-generative-ai-go` untuk respons percakapan cerdas, pencocokan kata kunci database untuk order katalog (`controllers/pesanan.go`), dan arsip dokumen ke Google Drive.
-- **Monitoring Sensor & Alerting IoT:** Modul controller suhu (`controllers/suhu.go`) yang mampu menerima telemetri sensor dan memicu peringatan otomatis ke chat saat mendeteksi anomali.
+A high-concurrency automated messaging backend service with multi-channel routing and AI integration.
+- **High Concurrency & Low Footprint:** Leverages Golang Goroutines and Channels to handle concurrent inbound message streams with ultra-low latency and minimal memory overhead.
+- **Native WebSocket Protocol:** Direct binary WebSocket communication via `whatsmeow` with terminal QR pairing, completely bypassing resource-heavy headless browsers.
+- **Unified Multi-Channel Router:** Centralized controller architecture routing incoming events from both WhatsApp socket streams and Telegram Bot API polling.
+- **LLM Integration & Catalog Orders:** Connected to the official `google-generative-ai-go` SDK for conversational query answering, database keyword routing for product orders (`controllers/pesanan.go`), and Google Drive file archiving.
+- **IoT Telemetry & Alerting:** Dedicated temperature sensor controller (`controllers/suhu.go`) capable of receiving environmental triggers and dispatching real-time threshold alerts to chat.
 
 [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/whatsap-auto-reply-Golang)
 
@@ -183,11 +183,11 @@ Service backend otomasi perpesanan berkecepatan tinggi dengan integrasi AI dan p
 
 ---
 
-### 🎯 Nilai Tambah untuk Tim Engineering
+### 🎯 Engineering Values & Work Ethic
 
-- **Pragmatis & Berorientasi Solusi:** Memilih teknologi berdasarkan kebutuhan nyata sistem (misal: Go untuk concurrency bot socket, Next.js/React 19 untuk UI/SEO, Laravel untuk sistem finansial institusional ber-RBAC).
-- **Disiplin Kode & Type Safety:** Menerapkan validasi data defensif (Zod), type safety (TypeScript/Go), dan automated testing (Playwright, Bun Test, Oxlint) untuk mencegah regresi bug di produksi.
-- **Siap Kolaborasi & Adaptif:** Terbiasa dengan workflow Git standar (branching, commit terstruktur, pull request), pemisahan arsitektur modular, dan penulisan dokumentasi teknis yang komprehensif.
+- **Pragmatic & Solution-Oriented:** Choosing the right tool for the job based on real engineering constraints (e.g., Go for concurrent socket listeners, Next.js/React 19 for SEO & interactive UI, Laravel for institutional RBAC financial systems).
+- **Code Discipline & Type Safety:** Enforcing defensive validation boundaries (Zod), static typing (TypeScript/Go), and automated testing (Playwright, Bun Test, Oxlint) to prevent regressions in production.
+- **Collaborative & Production-Ready:** Experienced with clean Git workflows (branching, structured semantic commits, pull requests), modular architecture separation, and comprehensive technical documentation.
 
 ---
 
@@ -195,7 +195,7 @@ Service backend otomasi perpesanan berkecepatan tinggi dengan integrasi AI dan p
 
 <div align="center">
 
-| Kategori | Teknologi |
+| Category | Technologies |
 | :--- | :--- |
 | **Frontend** | ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Tailwind v4](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | **Backend** | ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Elysia](https://img.shields.io/badge/ElysiaJS-8B5CF6?style=flat-square&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
@@ -223,7 +223,7 @@ Service backend otomasi perpesanan berkecepatan tinggi dengan integrasi AI dan p
 
 ### 📬 Get In Touch
 
-Saya terbuka untuk peluang karier sebagai **Frontend Developer**, **Backend Engineer**, atau **Fullstack Software Engineer** (Full-time / Remote / Hybrid).
+I am open to software engineering opportunities as a **Frontend Developer**, **Backend Engineer**, or **Fullstack Software Engineer** (Full-time / Remote / Hybrid).
 
 <div align="center">
 
