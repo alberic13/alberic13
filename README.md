@@ -66,8 +66,9 @@ A fullstack productivity suite featuring Kanban workflows, semantic AI search (R
 - **Live Webcal Subscription (RFC 5545):** Two-way automated schedule synchronization with Google Calendar, Apple Calendar, and Outlook, featuring secure URL/token regeneration.
 - **Automated Cron & Email Dispatch:** Scheduled Vercel Cron jobs protected by `CRON_SECRET` dispatching H-3 deadline reminders and overdue notices via responsive dark-mode HTML emails.
 - **Collaboration & Test Coverage:** Real-time multi-user task sharing via invite codes, 100% type safety (`tsc`), `bun test` integration suites (10/10), and Playwright E2E browser automation in GitHub Actions CI.
+- **Google PageSpeed Performance:** **99/100** (Desktop) & **88/100** (Mobile) with 100/100 SEO & Accessibility.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://todo-list-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/todo-list-zalde)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://todo-list-zalde.vercel.app/) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/todo-list-zalde) [![PageSpeed Desktop](https://img.shields.io/badge/PageSpeed_Desktop-99%2F100-10B981?style=flat-square&logo=googlechrome&logoColor=white)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ftodo-list-zalde.vercel.app%2F) [![PageSpeed Mobile](https://img.shields.io/badge/PageSpeed_Mobile-88%2F100-10B981?style=flat-square&logo=googlechrome&logoColor=white)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ftodo-list-zalde.vercel.app%2F)
 
 </td>
 <td width="50%" valign="top">
