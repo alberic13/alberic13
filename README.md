@@ -152,7 +152,7 @@ An institutional financial administration and tuition management system built fo
 <tr>
 <td width="50%" valign="top">
 
-#### ✨ 07. [LKP Exotic](https://belajar-nextjs-taupe.vercel.app)
+#### ✨ 07. [LKP Exotic](https://www.exotic.co.id)
 **Next.js 16 · React 19 · Three.js · GSAP · Drizzle ORM · MySQL2 · Zod**
 
 A commercial web portal and LMS foundation for a vocational beauty academy.
@@ -161,7 +161,7 @@ A commercial web portal and LMS foundation for a vocational beauty academy.
 - **Type-Safe ORM Layer:** Structured course enrollment database layer built on `Drizzle ORM` + `mysql2`, with defensive `Zod` validation.
 - **Choreographed Micro-Interactions:** Smooth scroll-linked animations powered by `@gsap/react` and Framer Motion for a polished commercial brand feel.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://belajar-nextjs-taupe.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/LKP-EXOTIC)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://www.exotic.co.id) [![GitHub Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github)](https://github.com/alberic13/LKP-EXOTIC)
 
 </td>
 <td width="50%" valign="top">
